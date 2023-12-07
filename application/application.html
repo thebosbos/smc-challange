@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futuristic Questionnaire Form</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: rgb(31, 29, 29);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      form {
+        background-color: rgb(31, 29, 29);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        max-width: 1232px; /* Increased width for better layout */
+        width: 100%;
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin-top: 742px;
+        margin-left: -332px;
+      }
+
+      .column {
+        flex: 1; /* Distribute available space equally */
+        margin-right: 10px; /* Add some spacing between columns */
+      }
+
+      fieldset {
+        margin-bottom: 16px;
+        border: 1px solid #555;
+        border-radius: 4px;
+        padding: 10px;
+        
+        width: 560px;
+        height: 485px;
+      }
+
+      legend {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      input {
+        margin-right: 5px;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: #555;
+        color: #fff;
+      }
+
+      button {
+        width: 95px;
+  height: 59px;
+        background-color: #4caf50;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .container {
+      width: 606px;
+      height: 390px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px; 
+      position: relative;
+      margin-top: 1904px;
+  margin-left: -642px;
+    }
+
+    /* Style for the second container */
+    .second-container {
+      background-color: lightblue;
+    }
+
+      button:hover {
+        background-color: #45a049;
+      }
+      results{
+        display:flex
+      }
+      #result {
+        margin-top: 20px;
+  margin-left: 77px;
+  margin-right: 77px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    
+    
+    
+    <form
+      id="questionnaireForm"
+      action="http://127.0.0.1:5000/predict"
+      method="post"
+      onsubmit="submitForm(); return false;">
+      <div class="column">
+        <fieldset>
+          <legend>Dépression chronique</legend>
+          <!-- Questions 1-9 -->
+          <label>Ressentez-vous un sentiment de tristesse permanent ?</label>
+          <input type="radio" name="question_1" value="1" required /> Oui
+          <input type="radio" name="question_1" value="0" required /> Non
+          <label
+            >Avez-vous perdu tout plaisir et intérêt pour les activités de la
+            vie quotidienne récemment ?</label
+          >
+          <input type="radio" name="question_2" value="1" required /> Oui
+          <input type="radio" name="question_2" value="0" required /> Non
+          <label>Avez-vous des pensées négatives fréquentes ?</label>
+          <input type="radio" name="question_3" value="1" required /> Oui
+          <input type="radio" name="question_3" value="0" required /> Non
+          <label>Avez-vous une mauvaise qualité de sommeil ?</label>
+          <input type="radio" name="question_4" value="1" required /> Oui
+          <input type="radio" name="question_4" value="0" required /> Non
+          <label>Avez-vous constaté une perte d'appétit récemment ?</label>
+          <input type="radio" name="question_5" value="1" required /> Oui
+          <input type="radio" name="question_5" value="0" required /> Non
+
+          <!-- Repeat for questions 2-9 -->
+        </fieldset>
+      </div>
+
+      <div class="column">
+        <fieldset>
+          <legend>Anxiété</legend>
+          <!-- Questions 10-18 -->
+          <label>Avez-vous souffert de maux de tête récemment?</label>
+          <input type="radio" name="question_6" value="1" required /> Oui
+          <input type="radio" name="question_6" value="0" required /> Non
+          <label
+            >Rencontrez-vous des difficultés à vous concentrer, comme avoir du
+            mal à maintenir votre attention sur une tâche ou à suivre une
+            conversation ?</label
+          >
+          <input type="radio" name="question_7" value="1" required /> Oui
+          <input type="radio" name="question_7" value="0" required /> Non
+          <!-- Repeat for questions 11-18 -->
+          <label
+            >Avez-vous ressenti des douleurs musculaires récemment, comme des
+            courbatures dans les muscles ?</label
+          >
+          <input type="radio" name="question_8" value="1" required /> Oui
+          <input type="radio" name="question_8" value="0" required /> Non
+          <label
+            >Avez-vous éprouvé des palpitations cardiaques ou une accélération
+            du rythme cardiaque récemment ?</label
+          >
+          <input type="radio" name="question_9" value="1" required /> Oui
+          <input type="radio" name="question_9" value="0" required /> Non
+          <label
+            >Avez-vous ressenti une sensation d'étouffement, comme si vous aviez
+            du mal à respirer correctement ?</label
+          >
+          <input type="radio" name="question_10" value="1" required /> Oui
+          <input type="radio" name="question_10" value="0" required /> Non
+        </fieldset>
+      </div>
+
+      <div class="column">
+        <fieldset>
+          <legend>TDAH chez l’adulte</legend>
+          <!-- Questions 19-26 -->
+          <label
+            >Avez-vous rencontré des difficultés à vous concentrer récemment
+            ?</label
+          >
+          <input type="radio" name="question_11" value="1" required /> Oui
+          <input type="radio" name="question_11" value="0" required /> Non
+          <!-- Repeat for questions 20-26 -->
+          <label
+            >Avez-vous du mal à terminer des tâches ou à faire preuve de
+            compétences pratiques adéquates dans vos activités quotidiennes
+            ?</label
+          >
+          <input type="radio" name="question_12" value="1" required /> Oui
+          <input type="radio" name="question_12" value="0" required /> Non
+          <label
+            >Avez-vous ressenti de l'agitation récemment, c'est-à-dire une
+            sensation constante de nervosité ou d'inconfort ?</label
+          >
+          <input type="radio" name="question_13" value="1" required /> Oui
+          <input type="radio" name="question_13" value="0" required /> Non
+          <label
+            >Avez-vous des sautes d'humeur fréquentes, c'est-à-dire des
+            changements rapides et soudains de votre état émotionnel ?</label
+          >
+          <input type="radio" name="question_14" value="1" required /> Oui
+          <input type="radio" name="question_14" value="0" required /> Non
+          <label
+            >AÊtes-vous souvent impatient, c'est-à-dire avoir du mal à attendre
+            ou à tolérer les délais ?</label
+          >
+          <input type="radio" name="question_15" value="1" required /> Oui
+          <input type="radio" name="question_15" value="0" required /> Non
+          <label
+            >Rencontrez-vous des difficultés à entretenir des relations avec les
+            autres, comme avoir du mal à établir ou à maintenir des liens
+            sociaux ?</label
+          >
+          <input type="radio" name="question_16" value="1" required /> Oui
+          <input type="radio" name="question_16" value="0" required /> Non
+          <label
+            >Comment évaluez-vous la qualité de vos relations avec vos pairs
+            ?</label
+          >
+          <input type="radio" name="question_17" value="1" required /> Oui
+          <input type="radio" name="question_17" value="0" required /> Non
+          <!-- Repeat for questions 20-26 -->
+        </fieldset>
+      </div>
+      <div class="column">
+        <fieldset>
+          <legend>physique,relation sociale,résilience émotionnelle</legend>
+          <!-- Questions 19-26 -->
+          <label
+            >Avez-vous des amis proches ou des groupes sociaux auxquels vous
+            vous identifiez ?</label
+          >
+          <input type="radio" name="question_18" value="1" required /> Oui
+          <input type="radio" name="question_18" value="0" required /> Non
+          <label
+            >Comment décririez-vous votre niveau de participation sociale et
+            votre intégration dans votre environnement scolaire ?</label
+          >
+          <input type="radio" name="question_19" value="1" required /> Oui
+          <input type="radio" name="question_19" value="0" required /> Non
+          <label
+            >Avez-vous trouvé du soutien dans votre réseau relationnel pour
+            faire face au stress lié à des événements ou situations difficiles
+            ?</label
+          >
+          <input type="radio" name="question_20" value="1" required /> Oui
+          <input type="radio" name="question_20" value="0" required /> Non
+          <label
+            >Êtes-vous généralement capable de vous remettre rapidement des
+            émotions négatives lors de situations sociales difficiles ?</label
+          >
+          <input type="radio" name="question_21" value="1" required /> Oui
+          <input type="radio" name="question_21" value="0" required /> Non
+          <label>Êtes-vous capable de vous adapter facilement?</label>
+          <input type="radio" name="question_22" value="1" required /> Oui
+          <input type="radio" name="question_22" value="0" required /> Non
+          <label
+            >Êtes-vous résistant(e) aux critiques ou aux rejets dans vos
+            relations sociales ?</label
+          >
+          <input type="radio" name="question_23" value="1" required /> Oui
+          <input type="radio" name="question_23" value="0" required /> Non
+          <label>Niveau d'étude</label>
+          <input type="radio" name="question_24" value="1" required /> Oui
+          <input type="radio" name="question_24" value="0" required /> Non
+          <label>Vous pratiquez des activités sportive? </label>
+          <input type="radio" name="question_25" value="1" required /> Oui
+          <input type="radio" name="question_25" value="0" required /> Non
+          <label
+            >Est-ce que vous vous déplacez à pied pour vous rendre à
+            l'université ?
+          </label>
+          <input type="radio" name="question_26" value="1" required /> Oui
+          <input type="radio" name="question_26" value="0" required /> Non
+        </fieldset>
+      </div>
+      <div class="column">
+        <fieldset>
+          <legend>test1</legend>
+          <!-- Questions 19-26 -->
+          <label
+            >Which difficult emotion do you struggle with the most?</label
+          >
+          <input type="radio" name="question_18" value="1" required /> Oui
+          <input type="radio" name="question_18" value="0" required /> Non
+          <label
+            >On an average weekday, how many hours do you spend alone?</label
+          >
+          <input type="radio" name="question_19" value="1" required /> Oui
+          <input type="radio" name="question_19" value="0" required /> Non
+          <label
+            >How well do you feel you manage your stress?</label
+          >
+          <input type="radio" name="question_20" value="1" required /> Oui
+          <input type="radio" name="question_20" value="0" required /> Non
+          <label>Would you consider yourself an introvert or an extrovert?</label>
+          <input type="radio" name="question_21" value="1" required /> Oui
+          <input type="radio" name="question_21" value="0" required /> Non
+          <label>When you think of a good idea, what is the first thing you usually do?</label>
+          <input type="radio" name="question_22" value="1" required /> Oui
+          <input type="radio" name="question_22" value="0" required /> Non
+          <label>After a hard day at work/school, what do you usually do?</label>
+          <input type="radio" name="question_23" value="1" required /> 
+          <input type="radio" name="question_23" value="0" required /> Non
+        </fieldset>
+      </div>
+
+      <button type="submit">Submit</button> <br />
+      
+    </form>
+   <div class="container">
+      <div class="results" id="result"></div>
+      </div>
+    <script>
+        function submitForm() {
+          // Get form data
+          var formData = {};
+          var formElements = document.getElementById("questionnaireForm").elements;
+      
+          for (var i = 0; i < formElements.length; i++) {
+            if (
+              formElements[i].type === "radio" &&
+              formElements[i].checked
+            ) {
+              formData[formElements[i].name] = parseInt(formElements[i].value);
+            }
+          }
+      
+          // Make a POST request to the Flask server
+          fetch("http://127.0.0.1:5000/predict", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              // Handle the response from the server
+              handleResponse(data);
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+            });
+        }
+      
+        // Function to handle the response from the server
+        function handleResponse(data) {
+          // Display the server response in the result element
+          var resultElement = document.getElementById("result");
+          var message = data[""]; // Access the value associated with the empty key
+            resultElement.innerHTML = message;
+        }
+      </script>
+      
+      
+      
+      
+  </body>
+</html>

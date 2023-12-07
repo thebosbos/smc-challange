@@ -1,0 +1,52 @@
+Horodateur,Score,Ressentez-vous un sentiment de tristesse permanent ?,Avez-vous perdu tout plaisir et intérêt pour les activités de la vie quotidienne récemment ?,Avez-vous des pensées négatives fréquentes ?,Avez-vous une mauvaise qualité de sommeil ?,Avez-vous constaté une perte d'appétit récemment ?,Avez-vous remarqué des trous de mémoire récemment?,"Rencontrez-vous des difficultés à vous concentrer, comme avoir du mal à maintenir votre attention sur une tâche ou à suivre une conversation ?",Avez-vous souffert de maux de tête récemment?,"Avez-vous ressenti des douleurs musculaires récemment, comme des courbatures dans les muscles ?",Avez-vous éprouvé des palpitations cardiaques ou une accélération du rythme cardiaque récemment ?,"Avez-vous ressenti une sensation d'étouffement, comme si vous aviez du mal à respirer correctement ?",Avez-vous rencontré des difficultés à vous concentrer récemment ?,Avez-vous du mal à terminer des tâches ou à faire preuve de compétences pratiques adéquates dans vos activités quotidiennes ?,"Avez-vous ressenti de l'agitation récemment, c'est-à-dire une sensation constante de nervosité ou d'inconfort ?","Avez-vous des sautes d'humeur fréquentes, c'est-à-dire des changements rapides et soudains de votre état émotionnel ?","Êtes-vous souvent impatient, c'est-à-dire avoir du mal à attendre ou à tolérer les délais ?","Rencontrez-vous des difficultés à entretenir des relations avec les autres, comme avoir du mal à établir ou à maintenir des liens sociaux ?",Comment évaluez-vous la qualité de vos relations avec vos pairs ?,Avez-vous des amis proches ou des groupes sociaux auxquels vous vous identifiez ?,Comment décririez-vous votre niveau de participation sociale et votre intégration dans votre environnement scolaire ?,Avez-vous trouvé du soutien dans votre réseau relationnel pour faire face au stress lié à des événements ou situations difficiles ?,Êtes-vous généralement capable de vous remettre rapidement des émotions négatives lors de situations sociales difficiles ?,Êtes-vous capable de vous adapter facilement?,Êtes-vous résistant(e) aux critiques ou aux rejets dans vos relations sociales ?,Niveau d'étude,"Moyenne générale ( choix 1:[0 5], choix 2:[5 10],choix 3: [10 15], choix 4:[15 20])",Vous pratiquez des activités sportive? ,Est-ce que vous vous déplacez à pied pour vous rendre à l'université ? 
+04/12/2023 10:10:45,,Non,Non,Non,oui,Non,,Non,oui,oui,Non,Non,Non,Non,oui,oui,oui,Non,Bon,Non,oui,Non,oui,oui,oui,Cycle ingénieur,4,oui,Non
+04/12/2023 10:11:12,,Oui,oui,Non,Non,oui,,oui,Non,Non,Non,Non,oui,oui,Non,Non,oui,Non,Moyen,oui,oui,oui,Non,oui,Non,Cycle ingénieur,3,oui,oui
+04/12/2023 10:11:26,,Non,Non,Non,Non,Non,,Non,Non,oui,Non,Non,oui,oui,Non,oui,Non,Non,Moyen,oui,oui,oui,oui,oui,oui,Cycle ingénieur,3,oui,oui
+04/12/2023 10:12:19,,Non,Non,Non,Non,Non,,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Bon,oui,oui,oui,oui,oui,oui,Cycle ingénieur,3,oui,Non
+04/12/2023 10:13:30,,Non,Non,Non,Non,Non,,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Bon,oui,oui,Non,oui,oui,oui,Préparatoire,3,oui,oui
+04/12/2023 10:13:32,,Non,Non,Non,Non,Non,,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Bon,oui,Non,Non,Non,oui,Non,Cycle ingénieur,4,Non,Non
+04/12/2023 10:15:53,,Non,Non,oui,oui,Non,,oui,oui,Non,Non,Non,oui,Non,Non,oui,Non,Non,Bon,oui,oui,oui,oui,oui,oui,Cycle ingénieur,4,oui,Non
+04/12/2023 10:18:21,,Non,Non,oui,oui,oui,,oui,oui,Non,Non,Non,Non,oui,oui,Non,Non,Non,Moyen,oui,oui,oui,oui,oui,Non,Cycle ingénieur,3,Non,oui
+04/12/2023 10:18:24,,Non,Non,oui,oui,oui,,oui,oui,oui,oui,oui,oui,Non,oui,oui,oui,Non,Bon,oui,oui,oui,Non,Non,oui,Cycle ingénieur,4,oui,Non
+04/12/2023 10:19:15,,Oui,Non,oui,Non,Non,,oui,oui,oui,oui,oui,oui,oui,oui,oui,oui,Non,Moyen,Non,Non,Non,oui,oui,oui,Cycle ingénieur,3,oui,oui
+04/12/2023 10:24:34,,Non,Non,Non,Non,Non,,Non,Non,Non,Non,Non,Non,Non,Non,Non,oui,oui,Bon,oui,oui,Non,Non,Non,Non,Cycle ingénieur,4,oui,oui
+04/12/2023 10:25:05,,Non,Non,oui,oui,oui,,oui,Non,Non,Non,Non,oui,Non,oui,Non,oui,Non,Bon,oui,oui,oui,oui,oui,oui,Cycle ingénieur,3,oui,oui
+04/12/2023 10:25:30,,Non,Non,oui,Non,Non,,Non,oui,oui,Non,Non,oui,oui,Non,Non,oui,Non,Bon,oui,oui,oui,oui,oui,Non,Bachelier,3,oui,Non
+04/12/2023 10:26:32,,Non,Non,oui,oui,oui,,Non,oui,Non,oui,oui,Non,Non,Non,Non,Non,Non,Moyen,oui,oui,oui,oui,oui,Non,Licence,3,oui,oui
+04/12/2023 10:27:21,,Non,Non,Non,Non,Non,,Non,Non,Non,Non,Non,oui,oui,oui,oui,Non,oui,Moyen,oui,Non,oui,oui,oui,oui,Cycle ingénieur,3,Non,oui
+04/12/2023 10:27:58,,Non,oui,oui,Non,Non,,Non,Non,Non,oui,Non,oui,Non,oui,oui,Non,Non,Bon,oui,Non,oui,oui,oui,oui,Cycle ingénieur,3,Non,Non
+04/12/2023 10:28:12,,Non,oui,oui,Non,oui,,oui,Non,oui,Non,oui,oui,oui,Non,Non,oui,Non,Moyen,oui,oui,oui,Non,oui,Non,Cycle ingénieur,3,oui,oui
+04/12/2023 10:28:28,,Oui,Non,oui,Non,Non,,Non,oui,oui,Non,oui,oui,Non,oui,oui,oui,Non,Bon,oui,oui,Non,Non,oui,Non,Cycle ingénieur,4,Non,Non
+04/12/2023 10:31:15,,Non,oui,Non,Non,Non,,Non,oui,Non,Non,oui,oui,oui,Non,oui,oui,Non,Moyen,oui,Non,oui,oui,oui,oui,Cycle ingénieur,3,oui,Non
+04/12/2023 10:38:27,,Oui,Non,Non,Non,oui,,Non,oui,Non,Non,Non,Non,Non,Non,oui,Non,Non,Moyen,oui,oui,Non,Non,Non,oui,Cycle ingénieur,3,Non,Non
+04/12/2023 10:38:46,,Oui,oui,oui,oui,Non,,oui,Non,Non,Non,oui,oui,Non,Non,Non,Non,Non,Bon,oui,oui,oui,Non,oui,Non,Cycle ingénieur,3,Non,Non
+04/12/2023 10:41:52,,Oui,oui,Non,Non,Non,,Non,Non,oui,Non,oui,Non,Non,Non,Non,Non,Non,Moyen,oui,oui,oui,oui,oui,oui,Cycle ingénieur,4,Non,Non
+04/12/2023 10:43:01,,Non,Non,Non,Non,Non,,Non,oui,Non,Non,Non,Non,Non,Non,oui,Non,Non,Bon,oui,oui,oui,Non,oui,oui,Cycle ingénieur,3,Non,Non
+04/12/2023 10:44:50,,Oui,Non,Non,oui,Non,,Non,Non,Non,Non,Non,Non,Non,Non,Non,oui,Non,Bon,oui,oui,oui,oui,oui,oui,Cycle ingénieur,4,oui,Non
+04/12/2023 10:53:56,,Non,Non,Non,oui,oui,,oui,oui,oui,Non,Non,oui,oui,oui,oui,Non,Non,Bon,oui,oui,oui,Non,oui,oui,Cycle ingénieur,3,oui,Non
+04/12/2023 11:26:38,,Non,oui,oui,Non,Non,,Non,oui,Non,Non,Non,oui,oui,Non,oui,Non,Non,Bon,oui,oui,oui,oui,oui,Non,Cycle ingénieur,3,Non,Non
+04/12/2023 11:28:22,,Oui,oui,oui,oui,oui,,oui,oui,Non,oui,oui,oui,oui,oui,oui,oui,oui,Bon,oui,oui,oui,oui,Non,oui,Cycle ingénieur,3,Non,Non
+04/12/2023 11:33:39,,Oui,oui,Non,Non,Non,,Non,Non,oui,Non,Non,oui,Non,oui,oui,Non,Non,Bon,Non,Non,Non,oui,Non,Non,Licence,2,Non,Non
+04/12/2023 11:45:05,,Non,Non,oui,oui,Non,,oui,oui,oui,Non,Non,oui,oui,oui,oui,oui,oui,Moyen,oui,Non,oui,Non,oui,oui,Cycle ingénieur,3,oui,oui
+04/12/2023 11:46:37,,Oui,oui,Non,oui,Non,,oui,oui,Non,Non,Non,oui,oui,oui,oui,Non,Non,Moyen,oui,oui,Non,oui,Non,oui,Cycle ingénieur,3,Non,oui
+04/12/2023 11:47:21,,Oui,oui,oui,oui,oui,,oui,oui,oui,oui,oui,oui,oui,oui,oui,Non,oui,Moyen,oui,oui,Non,Non,oui,Non,Cycle ingénieur,3,Non,oui
+04/12/2023 12:02:00,,Oui,oui,oui,Non,oui,,Non,oui,oui,Non,Non,Non,Non,oui,oui,Non,Non,Moyen,oui,Non,Non,Non,oui,Non,Cycle ingénieur,3,oui,oui
+04/12/2023 12:16:25,,Non,Non,Non,Non,Non,,oui,Non,Non,Non,Non,oui,Non,Non,oui,Non,Non,Bon,oui,oui,oui,Non,oui,Non,Licence,4,Non,oui
+04/12/2023 12:16:41,,Oui,oui,oui,Non,Non,,Non,Non,oui,oui,Non,Non,Non,Non,Non,Non,Non,Moyen,oui,oui,oui,oui,oui,oui,Cycle ingénieur,4,oui,oui
+04/12/2023 12:38:17,,Non,Non,Non,Non,Non,,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Bon,oui,oui,oui,Non,oui,Non,Cycle ingénieur,3,oui,Non
+04/12/2023 13:05:42,,Non,Non,Non,oui,Non,,oui,oui,oui,oui,oui,oui,Non,Non,oui,Non,Non,Bon,oui,oui,oui,oui,oui,oui,Médecin,2,oui,oui
+04/12/2023 14:05:02,,Non,Non,Non,Non,Non,,oui,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Moyen,oui,Non,oui,oui,Non,Non,Cycle ingénieur,3,oui,oui
+04/12/2023 14:05:53,,Non,Non,oui,oui,Non,,oui,Non,Non,Non,Non,Non,Non,Non,Non,Non,Non,Bon,oui,oui,oui,oui,oui,oui,Cycle ingénieur,3,oui,oui
+04/12/2023 14:08:24,,Oui,oui,oui,oui,Non,,oui,oui,Non,Non,oui,oui,Non,oui,oui,Non,Non,Bon,oui,Non,Non,oui,oui,oui,Cycle ingénieur,3,Non,Non
+04/12/2023 14:11:38,,Oui,oui,oui,oui,oui,,oui,oui,oui,Non,oui,oui,Non,oui,oui,oui,oui,Moyen,oui,oui,Non,oui,oui,Non,Préparatoire,3,oui,oui
+04/12/2023 15:58:03,,Oui,Non,oui,Non,oui,,oui,Non,oui,Non,Non,oui,Non,Non,oui,Non,Non,Moyen,oui,oui,Non,oui,oui,Non,Cycle ingénieur,3,Non,oui
+04/12/2023 16:06:33,,Oui,oui,oui,Non,oui,,oui,Non,Non,oui,oui,oui,Non,oui,oui,Non,oui,Moyen,oui,oui,oui,Non,Non,Non,Cycle ingénieur,3,oui,oui
+04/12/2023 18:47:56,,Non,Non,oui,Non,Non,,oui,oui,Non,Non,Non,oui,Non,Non,oui,oui,oui,Bon,Non,oui,Non,oui,Non,oui,Cycle ingénieur,3,Non,oui
+04/12/2023 19:08:07,,Non,oui,Non,Non,Non,,Non,Non,Non,oui,Non,oui,oui,oui,oui,Non,Non,Bon,oui,oui,oui,Non,Non,Non,Bachelier,4,oui,oui
+04/12/2023 19:14:54,,Oui,Non,oui,oui,Non,,oui,Non,Non,Non,Non,Non,Non,Non,Non,Non,oui,Moyen,oui,Non,Non,oui,Non,oui,Cycle ingénieur,4,Non,oui
+04/12/2023 19:17:10,,Oui,oui,Non,Non,Non,,Non,oui,oui,Non,Non,oui,oui,Non,oui,oui,oui,Bon,oui,oui,oui,oui,Non,Non,Cycle ingénieur,3,Non,oui
+04/12/2023 20:13:08,,Oui,Non,Non,Non,Non,,Non,oui,oui,oui,oui,Non,Non,oui,oui,Non,Non,Bon,oui,oui,Non,oui,oui,oui,Cycle ingénieur,4,Non,oui
+04/12/2023 20:38:00,,Oui,oui,oui,oui,oui,,oui,oui,Non,oui,oui,oui,oui,oui,Non,oui,oui,Moyen,oui,oui,Non,oui,Non,oui,Licence,1,Non,oui
+04/12/2023 23:47:19,,Non,oui,Non,Non,Non,,oui,oui,oui,oui,oui,oui,oui,oui,oui,oui,oui,Moyen,oui,oui,oui,oui,oui,oui,Licence,3,Non,Non
+05/12/2023 02:14:07,,Non,Non,Non,oui,oui,,oui,oui,Non,oui,oui,oui,Non,Non,oui,Non,Non,Moyen,oui,Non,oui,oui,oui,oui,Licence,2,Non,Non
+05/12/2023 11:01:03,,Non,Non,Non,oui,Non,,Non,oui,oui,Non,Non,Non,Non,Non,Non,Non,Non,Bon,oui,oui,oui,oui,oui,oui,Cycle ingénieur,4,Non,oui
